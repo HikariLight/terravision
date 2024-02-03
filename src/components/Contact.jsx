@@ -13,7 +13,7 @@ const Contact = () => {
                 </Link>
             </nav>
 
-            <div className="grid h-full w-full place-items-center bg-gradient-to-bl from-white to-emerald-100">
+            <div className="grid h-full w-full place-items-center">
                 <form className="flex w-full max-w-sm space-x-3">
                     <div className="m-auto mt-10 w-full max-w-2xl rounded-xl bg-white px-5 py-10 shadow dark:bg-gray-800">
                         <div className="mb-6 text-center text-3xl font-light text-emerald-700 dark:text-white">

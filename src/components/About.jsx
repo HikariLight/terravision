@@ -4,7 +4,8 @@ import Drone from "../assets/drone.jpg"
 const About = () => {
     return (
         <Layout>
-            <section className="grid h-full w-full place-items-center bg-gray-100 py-12 md:py-24 lg:py-32 dark:bg-gray-800">
+            {/* <section className="grid h-full w-full place-items-center bg-emerald-100 py-12 md:py-24 lg:py-32 dark:bg-gray-800"> */}
+            <section className="grid h-full w-full place-items-center bg-gradient-to-bl from-white to-emerald-100 py-12 md:py-24 lg:py-32 dark:bg-gray-800">
                 <div className="container px-4 md:px-6">
                     <div className="grid items-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
                         <img

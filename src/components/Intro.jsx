@@ -3,7 +3,7 @@ import Layout from "./Layout"
 const Intro = () => {
     return (
         <Layout>
-            <section className="grid h-full w-full place-items-center py-12 md:py-24 lg:py-32 xl:py-48">
+            <section className="grid h-full w-full place-items-center bg-gradient-to-bl from-white to-emerald-100 py-12 md:py-24 lg:py-32 xl:py-48">
                 <div className="container px-4 md:px-6">
                     <div className="flex flex-col items-center space-y-4 text-center">
                         <div className="space-y-2">

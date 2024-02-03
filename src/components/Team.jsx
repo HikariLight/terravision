@@ -1,5 +1,8 @@
 import Layout from "./Layout"
 import Drone from "../assets/drone.jpg"
+import TonyStark from "../assets/stark.jpg"
+import ElonMusk from "../assets/musk.jpg"
+import GretaThunberg from "../assets/thunberg.jpg"
 
 const Team = () => {
     return (
@@ -23,33 +26,35 @@ const Team = () => {
                     <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
                         <div className="flex flex-col items-center space-y-4">
                             <img
-                                className="h-auto w-48"
-                                src={Drone}
-                                alt="Drone"
+                                className="h-auto w-64"
+                                src={TonyStark}
+                                alt="Tony Stark"
                             />
-                            <h3 className="text-xl font-bold">Team Member 1</h3>
+                            <h3 className="text-xl font-bold">Tony Stark</h3>
                             <p className="text-gray-500 dark:text-gray-400">
                                 Expert in Robotics
                             </p>
                         </div>
                         <div className="flex flex-col items-center space-y-4">
                             <img
-                                className="h-auto w-48"
-                                src={Drone}
-                                alt="Drone"
+                                className="h-auto w-64"
+                                src={ElonMusk}
+                                alt="Elon Musk"
                             />
-                            <h3 className="text-xl font-bold">Team Member 2</h3>
+                            <h3 className="text-xl font-bold">Elon Musk</h3>
                             <p className="text-gray-500 dark:text-gray-400">
                                 Expert in AI
                             </p>
                         </div>
                         <div className="flex flex-col items-center space-y-4">
                             <img
-                                className="h-auto w-48"
-                                src={Drone}
-                                alt="Drone"
+                                className="h-auto w-64"
+                                src={GretaThunberg}
+                                alt="Greta Thunberg"
                             />
-                            <h3 className="text-xl font-bold">Team Member 3</h3>
+                            <h3 className="text-xl font-bold">
+                                Greta Thunberg
+                            </h3>
                             <p className="text-gray-500 dark:text-gray-400">
                                 Expert in Environmental Sustainability
                             </p>

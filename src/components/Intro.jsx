@@ -28,8 +28,8 @@ const Intro = () => {
                                     Terravision
                                 </h1>
                                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                                    Developing robots to clean and preserve the
-                                    planet.
+                                    Developing robots to create a clean world in
+                                    our time.
                                 </p>
                             </div>
                             <div className="space-x-4">

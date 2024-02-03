@@ -1,6 +1,6 @@
 import Layout from "./Layout"
 import { Link } from "react-router-dom"
-import Logo from "../assets/logo.png"
+import LogoType from "../assets/logotype.png"
 
 const Intro = () => {
     return (
@@ -21,8 +21,8 @@ const Intro = () => {
                             <div className="space-y-2">
                                 <img
                                     className="w-auo mx-auto h-32"
-                                    src={Logo}
-                                    alt=""
+                                    src={LogoType}
+                                    alt="Earth engulfed by a pair of robotic hands"
                                 />
                                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
                                     Terravision
